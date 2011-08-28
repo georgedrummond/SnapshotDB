@@ -14,7 +14,7 @@ The easiest option is to use [Heroku](http://heroku.com) as you can deploy the a
 
 ## Installing in house
 
-Running the app in house might sound like a nice idea but it is a lot harder to do than via heroku. If you wish to host it in house you will be required to set up a server (I strongly suggest a Linux server) to run the app. The easiest and most reliable method of installation will probably be via [phusion passenger](http://www.modrails.com/) but I dont recommend this for a novice.
+Running the app in house might sound like a nice idea but it is a lot harder to do than via heroku. If you wish to host it in house you will be required to set up a server (I strongly suggest a Linux server) to run the app. The easiest and most reliable method of installation will probably be via [phusion passenger](http://www.modrails.com/) but I don't recommend this for a novice.
 
 For a choice of database I suggest [PostgreSQL](http://www.postgresql.org/). You will need to visit their site for installation and configuration instructions. You will also need to configure the database within the app (see [```config/database.yml```](https://github.com/georgedrummond/SnapshotDB/blob/master/config/database.yml)).
 
